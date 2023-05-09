@@ -36,24 +36,24 @@ Sarı #FDC913, Açık Gri: #5F5F5F, Koyu Gri #292929, Kırmızı #CE2829, Bej: #
 
 ### Görev 1: Proje Kurulumu
 
-- [ ] Forklayarak bir kopya oluşturun
-- [ ] Forku klonlayın
-- [ ] Main branch üzerinde çalışın
-- [ ] Comitinizi pushlayın: `git push origin main`
+- [+] Forklayarak bir kopya oluşturun
+- [+] Forku klonlayın
+- [+] Main branch üzerinde çalışın
+- [+] Comitinizi pushlayın: `git push origin main`
 
 ### Görev 2: Proje Gereklilikleri
 
 Bitmiş proje aşağıdaki gereklilikleri içermelidir:
 
-- [ ] Route u "/" olan ve forma linklenen bir anasayfa (button, nav bar, ya da herhangi bir link kabul edilebilir ama id'si "order-pizza" olmalı)
-- [ ] Route u "/pizza" olan bir sipariş formu
-- [ ] Id'si "pizza-form" olan bir form
-- [ ] Id'si "name-input" olan bir isim inputu
-- [ ] İsim için bir doğrulama(validation) ve hata mesajı (İsim en az 2 karakter olmalıdır) (Testlerin geçtiğinden emin olmak için tam olarak bu hata mesajını kullanın) ::: BU HATA MESAJINI KULLANMAK ÇOK ÖNEMLİ (testlere dahil!)
-- [ ] Pizza boyutunun seçilebileceği "size-dropdown" id'li bir dropdown
+- [+] Route u "/" olan ve forma linklenen bir anasayfa (button, nav bar, ya da herhangi bir link kabul edilebilir ama id'si "order-pizza" olmalı)
+- [+] Route u "/pizza" olan bir sipariş formu
+- [+] Id'si "pizza-form" olan bir form
+- [+] Id'si "name-input" olan bir isim inputu
+- [+] İsim için bir doğrulama(validation) ve hata mesajı (İsim en az 2 karakter olmalıdır) (Testlerin geçtiğinden emin olmak için tam olarak bu hata mesajını kullanın) ::: BU HATA MESAJINI KULLANMAK ÇOK ÖNEMLİ (testlere dahil!)
+- [+] Pizza boyutunun seçilebileceği "size-dropdown" id'li bir dropdown
 - [ ] Malzemeler için bir checklist(checkbox) - en az 4 adet (ipucu: name attributeları farklı olsun!)
-- [ ] Özel seçimler için bir text input "special-text" id'li
-- [ ] "order-button" id'li bir "Sipariş Ver" butonu. Bu buton tıklandığında form gönderilerek girilen bilgileri içerecek bir veritabanı kaydı oluşturulacak
+- [+] Özel seçimler için bir text input "special-text" id'li
+- [+] "order-button" id'li bir "Sipariş Ver" butonu. Bu buton tıklandığında form gönderilerek girilen bilgileri içerecek bir veritabanı kaydı oluşturulacak
 
 Not - Form'un payloadu, veri şu şekilde olabilir. Kendiniz de bu yapıyı değiştirebilirsiniz.
 
@@ -72,9 +72,9 @@ Not - Form'un payloadu, veri şu şekilde olabilir. Kendiniz de bu yapıyı değ
 
 Cypress'le şu testleri ekleyin:
 
-- [ ] inputa bir metin giren test
-- [ ] birden fazla malzeme seçilebilen bir test
-- [ ] formu gönderen bir test
+- [+] inputa bir metin giren test
+- [+] birden fazla malzeme seçilebilen bir test
+- [+] formu gönderen bir test
 
 Çözümünüzde en iyi uygulamaları izlemeniz, temiz ve profesyonel sonuçlar üretmeniz önemlidir. Organizasyon ve kod yapısına göre skorunuz belirlenecek.
 Çalışmanızı gözden geçirmek, iyileştirmek ve değerlendirmek için zaman planlayın ve çalışmanız üzerinde yazım denetimi ve dilbilgisi denetimi de dahil olmak üzere temel profesyonel düzeltmeler yapın. MVP'yi karşılayan bir challenge göndermek, çok fazla kompleksleştirilmiş ama çalışmayan bir proje göndermekten daha iyidir.

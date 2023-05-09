@@ -174,16 +174,17 @@ const StyledOrderSuccessContainer = styled.div`
 `;
 
 const StyledOrderSuccessButton = styled.button`
-  color: black;
-  border: 0.3rem solid #eb455f;
+  color: white;
+  border: 0.2rem solid #ce2829;
   border-radius: 20px;
   padding: 0.5vw 4vw;
   font-weight: bold;
+  background-color: #ce2829;
   &:hover {
-    background-color: #eb455f;
+    background-color: green;
     color: white;
     font-weight: bold;
-    border: 0.3rem solid black;
+    border: 0.2rem solid green;
   }
 `;
 
@@ -230,16 +231,16 @@ const StyledNewOrderContainer = styled.div`
 
 const StyledNewOrderButton = styled.button`
   color: white;
-  border: 0.3rem solid black;
+  border: 0.2rem solid #ce2829;
   border-radius: 20px;
   padding: 0.5vw 4vw;
   font-weight: bold;
-  background-color: #eb455f;
+  background-color: #ce2829;
   &:hover {
     color: black;
-    background-color: white;
+    background-color: green;
     font-weight: bold;
-    border: 0.3rem solid #eb455f;
+    border: 0.2rem solid green;
   }
 `;
 
@@ -291,11 +292,7 @@ export default function Form(props) {
         <StyledOrderSection>
           <h2>Build Your Own Pizza</h2>
 
-          <form
-            id="pizza-form"
-            onSubmit={handleSubmit}
-            style={{ width: "100%" }}
-          >
+          <form id="pizza-form" onSubmit={handleSubmit}>
             <StyledSize htmlFor="size">
               <StyledOrderSectionHeading>
                 <StyledOrderSectionHeadingTitle>

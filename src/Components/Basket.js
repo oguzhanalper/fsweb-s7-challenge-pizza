@@ -150,9 +150,7 @@ export default function Basket(props) {
             <StyledOrderDetailsHeadings>Toppings:</StyledOrderDetailsHeadings>
             <ul>
               {adminOrder.selectedToppings.map((topping) => (
-                <space>
-                  <li>{topping}</li>
-                </space>
+                <li>{topping}</li>
               ))}
             </ul>
 

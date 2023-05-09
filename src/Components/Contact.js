@@ -44,4 +44,3 @@ function Contact() {
 }
 
 export default Contact;
-// animation: App-logo-spin infinite 5s linear;

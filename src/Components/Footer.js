@@ -36,8 +36,8 @@ const StyledFooterLinksContainer = styled.div`
 `;
 
 const StyledFooterLinks = styled.p`
-  color: green;
-  border: 0.2rem solid white;
+  color: white;
+  border: 0.1rem solid green;
   border-radius: 20px;
   padding: 0.5vw 4vw;
   font-weight: bold;
@@ -45,10 +45,10 @@ const StyledFooterLinks = styled.p`
   font-family: "Satisfy", "cursive";
 
   &:hover {
-    background-color: dodgerblue;
-    color: white;
+    background-color: white;
+    color: red;
     font-weight: bold;
-    border: 0.2rem solid dodgerblue;
+    border: 0.2rem solid white;
     font-family: "Satisfy", "cursive";
   }
 `;

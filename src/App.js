@@ -87,7 +87,7 @@ const App = () => {
   const [orderFormErrors, setOrderFormErrors] = useState({
     sizeDropdown: "",
     sauce: "",
-    selectedToppings: null,
+    selectedToppings: [],
     glutenFreeCrust: "",
     specialText: "",
     name: "",

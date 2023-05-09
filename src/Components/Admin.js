@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const StyledAdminPanelContainer = styled.div`
   margin-bottom: 65vh;
+  text-transform: capitalize;
 `;
 
 const StyledTable = styled.table`

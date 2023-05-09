@@ -1,7 +1,11 @@
 import * as Yup from "yup";
 export const orderFormSchema = Yup.object().shape({
   sizeDropdown: Yup.string().required("You must choose a size."),
-  selectedToppings: Yup.array().required("You must select max 6 toppings"),
+  selectedToppings: Yup.array()
+    .of(Yup.string())
+    .required("You must select max 6 toppings")
+    .min(2, "you can choose at least 2 toppings")
+    .max(6, "You can choose max 6 toppings"),
 
   sauce: Yup.string().required("You must choose a sauce."),
 

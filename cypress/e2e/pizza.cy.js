@@ -6,7 +6,7 @@ describe("testing cypress", function () {
 
 describe("main page to order page flow test", function () {
   beforeEach(() => {
-    cy.visit("http://localhost:3001");
+    cy.visit("http://localhost:3000");
   });
   it("Visits mainpage and then clicks to order pizza button", function () {
     cy.get('[data-cy="order-pizza-button"]').click();
@@ -16,7 +16,7 @@ describe("main page to order page flow test", function () {
 
 describe("order form test", function () {
   beforeEach(() => {
-    cy.visit("http://localhost:3001/pizza");
+    cy.visit("http://localhost:3000/pizza");
   });
   it("Visits order pizza page and fills the form", function () {
     cy.get('[data-cy="order-button"]').should("be.disabled");
@@ -65,7 +65,7 @@ describe("order form test", function () {
 
 describe("Empty basket to order form page", function () {
   beforeEach(() => {
-    cy.visit("http://localhost:3001/basket");
+    cy.visit("http://localhost:3000/basket");
   });
   it("Visits the basket page when the user haven't placed an order and then directs the user to the order form page", function () {
     cy.get('[data-cy="order-now-button"]').click();

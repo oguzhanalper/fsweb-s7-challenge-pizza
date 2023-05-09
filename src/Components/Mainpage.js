@@ -9,9 +9,8 @@ const StyledMainPageContainer = styled.div`
 
 // Hero Banner
 const StyledHero = styled.div`
-  background-image: url("./images/MVP-Home.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ce2829;
+  object-fit: contain;
   display: flex;
   flex-direction: column;
 `;
@@ -32,16 +31,16 @@ const StyledHeroTitleContainer = styled.div`
 const StyledHeroButton = styled.button`
   display: flex;
   color: white;
-  border: 0.2rem solid dodgerblue;
+  border: 2px solid white;
   border-radius: 20px;
   padding: 0.5px 10px;
   font-weight: bold;
-
+  margin-top: 1rem;
   &:hover {
-    background-color: dodgerblue;
-    color: white;
+    background-color: white;
+    color: red;
     font-weight: bold;
-    border: 0.2rem solid dodgerblue;
+    border: 0.2rem solid white;
   }
 `;
 
